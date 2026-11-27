@@ -8,14 +8,32 @@
 </head>
 
 <body>
-    <h1>NBA Analytics Hub</h1>
-    <h2>List of NBA Players</h2>
-    <ul>
-        <a href="https://www.espn.com/nba/player/_/id/4278073/shai-gilgeous-alexander"><li>Shai Gilgeous-Alexander</li></a>
-        <li>Kevin Durant</li>
-        <li>LeBron James</li>
-    </ul>
-        <a href="about.html">About Page</a>
+    <!--Header of website-->
+    <header>
+        <h1>NBA Analytics Hub</h1>
+
+        <nav>
+            <a href="about.html">About Page</a>
+            <a href="players.html">Player Directory</a>
+            <a href="compare.html">Player Comparison</a>
+            <a href="fantasy.html">Fantasy Basketball</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <form action="/players.html">
+            <p>
+                <label for="PlayerName">Search for an NBA Player:</label>
+
+                <input id="PlayerName" type="text" placeholder="NBA Player" name="NBA_Player">
+            </p>
+            <button>Submit</button>
+        </form>
+
+    </main>
+    
 </body>
 
 </html>
